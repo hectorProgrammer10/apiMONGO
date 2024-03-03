@@ -3,7 +3,7 @@ require("./src/configs/db.config");
 
 const express = require("express");
 const app = express();
-const PORT = 3000;
+const PORT = 3008;
 
 const productosRouter = require("./src/routes/productos.route");
 
